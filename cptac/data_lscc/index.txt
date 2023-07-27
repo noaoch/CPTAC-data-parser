@@ -1,0 +1,47 @@
+#1.0
+lscc-v1.0-any-somatic-mutation-freq-by-gene.gct.gz	078f712bf9c691bc4eca3ec8acd38f2a	https://byu.box.com/shared/static/s2pmqslbo96yerofl4e2b0ylwdx72ylb.gz	not_used
+lscc-v1.0-cnv-gene-level-log2.gct.gz	279a745b823446fd61cc757c47fa7454	https://byu.box.com/shared/static/u5uivuh1c2prhyf8wcbs8wdd7dv162uj.gz	CNV
+lscc-v1.0-cptac3-lscc-rna-seq-fusion-v2.2-y2.all-20190807.txt.gz	a8b6c0a1698c90e31c678ceff1f02e3c	https://byu.box.com/shared/static/1kme4c5lnhhssvqo9yrilzpwp49v7xmk.gz	gene_fusion
+lscc-v1.0-mirna-mature-tpm-log2.gct.gz	838d57f694c1719eed7ef2a6fad9cac4	https://byu.box.com/shared/static/flxse0omm6pztzkx9est4ivrmhc6f8yg.gz	miRNA
+lscc-v1.0-phosphoproteome-ratio-norm-NArm.gct.gz	68d4e9bdaaa6235ddbed913a2e242718	https://byu.box.com/shared/static/ux2qu8wnmm8iuexe6h4byjjll4tyj0z1.gz	phosphoproteomics
+lscc-v1.0-proteome-ratio-norm-NArm.gct.gz	087e5f69a763a4741550eb4c0c92c709	https://byu.box.com/shared/static/rrdyknt7faoxvpziw3hzci40d04w5haf.gz	proteomics
+lscc-v1.0-rnaseq-uq-fpkm-log2-NArm.gct.gz	73873b635616b7f682720bbc7e671054	https://byu.box.com/shared/static/xtqs73su715oo4kpodi39pst3anf0aez.gz	transcriptomics
+lscc-v1.0-sample-annotation.csv.gz	ed54c81143c47994651506520b3dd2fe	https://byu.box.com/shared/static/regw0xum6ykzxlltpbfz5kdee0pqm3ui.gz	annotation
+lscc-v1.0-cptac3-lscc-wxs-somatic-variant-sw-v1.5-lscc.y2-20191211.maf.gz	c2080a150ba410e70707b32756d0b57b	https://byu.box.com/shared/static/19aafznkokj4yso8jzm6skejs9vrfjog.gz	somatic_mutation
+#3.2
+lscc-v3.2-acetylome-ratio-norm-NArm.gct.gz	c938d4efb0b4ad397ca47b83bd2062c9	https://byu.box.com/shared/static/tngncqd1g1uxj9zly4ut0b1ymqc675m3.gz	acetylproteomics
+lscc-v3.2-circular-rna-rsem-uq-log2.gct.gz	3e9d717bc6cdc8ba301041bc09832b63	https://byu.box.com/shared/static/y81x6onh7h63uu3dmmg1nv25xqhrdrfm.gz	circular_RNA
+lscc-v3.2-cptac3-lscc-rna-seq-fusion-v2.2-y2.all-20190807.txt.gz	0265306059e50dec431f77ccc69bd1f9	https://byu.box.com/shared/static/8uqjz96kv0rwo9mjc97paa70xoyn9fvu.gz	gene_fusion
+lscc-v3.2-gene-level-cnv-gistic2-all_data_by_genes.gct.gz	dafd0692f1ae4d0e4f36e09376728b62	https://byu.box.com/shared/static/u99bgwplgxl6nkejs0w6tm66qjp3vjvj.gz	CNV
+lscc-v3.2-mirna-mature-tpm-log2.gct.gz	1fab196743dfc5fc8dffb8543c1dae66	https://byu.box.com/shared/static/w1q5l4t2jp3091lujq9f42p3ryhctw5f.gz	miRNA
+lscc-v3.2-mutsig-2cv-umich-v2-lscc-poncptac3-lscc-v3beta.final-analysis-set.maf.gz	b61efde02a86558707c3786724e359b7	https://byu.box.com/shared/static/synosy0gvd0rez3wgof6x7r3pkpe6qty.gz	somatic_mutation
+lscc-v3.2-phosphoproteome-ratio-norm-NArm.gct.gz	51bd140d40f625ea8e38c20aa00cdf48	https://byu.box.com/shared/static/mkop525g1eq5xfv63trzikec6skv6xo2.gz	phosphoproteomics
+lscc-v3.2-proteome-ratio-norm-NArm.gct.gz	4234ab1d0bce3d13660bd3b6e659392f	https://byu.box.com/shared/static/cbl42kgyf0rs060ojb23lv8o4wmygmyw.gz	proteomics
+lscc-v3.2-rnaseq-uq-fpkm-log2-NArm.gct.gz	4461b3e392eb5170a3cb9be57231c4c8	https://byu.box.com/shared/static/yolnc9hkzq6diszqemf0gc1dj4lzvywv.gz	transcriptomics
+lscc-v3.2-sample-annotation.csv.gz	7b24d2dcb052e38aee23f6fda8f73b3c	https://byu.box.com/shared/static/6xqfmdt3ojkiuqizqlw335ajq0so3ba4.gz	annotation
+lscc-v3.2-ubiquitylome-ratio-norm-NArm.gct.gz	b89a7767368f7735c558fad7d75b02a1	https://byu.box.com/shared/static/ctgdv76mj9jo5tmw3woftg6fcwa7hyr1.gz	ubiquitylomics
+#3.2.1
+lscc-v3.2-acetylome-ratio-norm-NArm.gct.gz	c938d4efb0b4ad397ca47b83bd2062c9	https://byu.box.com/shared/static/cfgqg3v9pbed31xopth458uwr4bbkno4.gz	acetylproteomics
+lscc-v3.2-circular-rna-rsem-uq-log2.gct.gz	3e9d717bc6cdc8ba301041bc09832b63	https://byu.box.com/shared/static/ltrgecs34reigrcgtmd8y3wrwc076ee8.gz	circular_RNA
+lscc-v3.2-cptac3-lscc-rna-seq-fusion-v2.2-y2.all-20190807.txt.gz	0265306059e50dec431f77ccc69bd1f9	https://byu.box.com/shared/static/g5x9y75k7yr6nup4kdupj37z01ka9pq7.gz	gene_fusion
+lscc-v3.2-gene-level-cnv-gistic2-log-ratio-all_data_by_genes.gct.gz	52c054c4fec71d779251a45f26f1c185	https://byu.box.com/shared/static/i9i8xh6z2kh126h5yeifj9yqfh9y63aw.gz	CNV
+lscc-v3.2-mirna-mature-tpm-log2.gct.gz	1fab196743dfc5fc8dffb8543c1dae66	https://byu.box.com/shared/static/b9zwso7xrx1q9ffez7bj0ib2mv84dycv.gz	miRNA
+lscc-v3.2-mutsig-2cv-umich-v2-lscc-poncptac3-lscc-v3beta.final-analysis-set.maf.gz	b61efde02a86558707c3786724e359b7	https://byu.box.com/shared/static/upe6k2h8rrqjiwgm579mqg7vwxozd4ed.gz	somatic_mutation
+lscc-v3.2-phosphoproteome-ratio-norm-NArm.gct.gz	51bd140d40f625ea8e38c20aa00cdf48	https://byu.box.com/shared/static/jh18bp632kyxyk14rzk5ec580nd85nhb.gz	phosphoproteomics
+lscc-v3.2-proteome-ratio-norm-NArm.gct.gz	4234ab1d0bce3d13660bd3b6e659392f	https://byu.box.com/shared/static/g9q2o8afxkbxiehw6mhs5lsg4s4jyf9d.gz	proteomics
+lscc-v3.2-rnaseq-uq-fpkm-log2-NArm.gct.gz	4461b3e392eb5170a3cb9be57231c4c8	https://byu.box.com/shared/static/e3ukr3yxspvswpllti6tt2w70yg3y9in.gz	transcriptomics
+lscc-v3.2-sample-annotation.csv.gz	7b24d2dcb052e38aee23f6fda8f73b3c	https://byu.box.com/shared/static/e48bcg1ltatilyefjcnyiw9he778ku62.gz	annotation
+lscc-v3.2-ubiquitylome-ratio-norm-NArm.gct.gz	b89a7767368f7735c558fad7d75b02a1	https://byu.box.com/shared/static/abud0ax9v6yjyz7n0c4fd8cahcgedcvb.gz	ubiquitylomics
+#3.3
+lscc-v3.2-cptac3-lscc-rna-seq-fusion-v2.2-y2.all-20190807.txt.gz	61bb0d19f3c3dd06cd6e353dacc25484	https://byu.box.com/shared/static/m4w90hq0g86p4m6yqn7037yw3mxxhj9y.gz	gene_fusion
+lscc-v3.2-mutsig-2cv-umich-v2-lscc-poncptac3-lscc-v3beta.final-analysis-set.maf.gz	d81724bc4b7ad432978eb3396b247469	https://byu.box.com/shared/static/7rrcaukuiwia3sahc8avyft237ftq4fp.gz	somatic_mutation
+lscc-v3.3-public-acetylome-ratio-norm-NArm.gct.gz	39093d26897b3061572e0edbc942360f	https://byu.box.com/shared/static/rw99i8uyd0m1k6fkejb08a326yrl2zf9.gz	acetylproteomics
+lscc-v3.3-public-circular-rna-rsem-uq-log2.gct.gz	8b04e777b02917c987a63aebdd6c47e9	https://byu.box.com/shared/static/cm958mwfnrd8ogzaas4712dzle5tdq8m.gz	circular_RNA
+lscc-v3.3-public-gene-level-cnv-gistic2-log-ratio-all_data_by_genes.gct.gz	1a6c9de93cdfcf85bec1166ed9fc38f4	https://byu.box.com/shared/static/dhrr12fchbp78laqf8t3xsl6oxihtumv.gz	CNV
+lscc-v3.3-public-methylation-promoter-5utr-gene-level.gct.gz	9ea21af9c5df7540529d1f9d5ac2dcf3	https://byu.box.com/shared/static/zxpos5vdr9cd2ya7vgbhdvdyap43gjyk.gz	not_used
+lscc-v3.3-public-mirna-mature-tpm-log2.gct.gz	0591c443b61034808d63040f750f3775	https://byu.box.com/shared/static/8jcyaa6oibo4ojzsnx823bumo1cfzloi.gz	miRNA
+lscc-v3.3-public-phosphoproteome-ratio-norm-NArm.gct.gz	084e8822c174b7c9cfa338685a5b063a	https://byu.box.com/shared/static/rotindpyo5aflxpx70ngeu0fs34t98lg.gz	phosphoproteomics
+lscc-v3.3-public-proteome-ratio-norm-NArm.gct.gz	d29a29d2adfdcb13aa3013c4527cc83d	https://byu.box.com/shared/static/cqm3zfwaayrzmnuizxta0kbyhfajfexd.gz	proteomics
+lscc-v3.3-public-rnaseq-uq-fpkm-log2-NArm.gct.gz	8432a29ea26a20df8b40dae93e11f524	https://byu.box.com/shared/static/jdgqfi3cpl0q1qtzvn6pq2b0obkki4jn.gz	transcriptomics
+lscc-v3.3-public-sample-annotation.csv.gz	4ddef8715020b921bf5e588bbbbf2052	https://byu.box.com/shared/static/gpwl917o7kgrt8bjaww8je681g1qhuzc.gz	annotation
+lscc-v3.3-public-ubiquitylome-batch-corrected-ratio-norm-NArm.gct.gz	12271f344b4d151fd17a3e41d4df7277	https://byu.box.com/shared/static/5r23aan8mx66tm3mrrj6xwqdgc3euh0n.gz	ubiquitylomics

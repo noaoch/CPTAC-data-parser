@@ -1,0 +1,15 @@
+#1.0
+clinical_table_140.tsv.gz	02b7c78d8894f4b75512fbd55709027b	https://byu.box.com/shared/static/t6rqvvlvizrgm10ftlzgo81jgrw98l7a.gz	clinical
+meta_table_140.tsv.gz	6b52d741f1879a4a942f04ed802da8e9	https://byu.box.com/shared/static/ft41hdylbof0pca0pu4m1hnzdf0lhqrr.gz	derived_molecular
+microRNA_TPM_log2_Normal.cct.gz	ffffbf613794f7124c6ed32032a50200	https://byu.box.com/shared/static/ajkmsv3ywe1mehgam2a2lw9fspcr79qe.gz	miRNA
+microRNA_TPM_log2_Tumor.cct.gz	d277e949c73d5f9fb12b0e15b44f6414	https://byu.box.com/shared/static/oj67n8u00rrd8q74uzf5le8l0dacuqj1.gz	miRNA
+mRNA_RSEM_UQ_log2_Normal.cct.gz	e602418da9266bf60c52a18e6cdde52b	https://byu.box.com/shared/static/0r33c4cxxlf35r1yehndzgs5b8wh8eer.gz	transcriptomics
+mRNA_RSEM_UQ_log2_Tumor.cct.gz	f6e892bbbe3f503a760cdf9d038eba1c	https://byu.box.com/shared/static/5hyh38jcaarwp1qctqfi2c2i4le0vft2.gz	transcriptomics
+PDAC_mutation.maf.gz	7e5f97cb03cb552fefd37bb419d781b6	https://byu.box.com/shared/static/9pdbbyqnkcuoa16or8uwa6n94fbznrjp.gz	somatic_mutation
+phosphoproteomics_site_level_MD_abundance_normal.cct.gz	9549b99598f475158f5933649079c0c8	https://byu.box.com/shared/static/7klcm7inivkmd2k6j2rwzaoszrj7kond.gz	phosphoproteomics
+phosphoproteomics_site_level_MD_abundance_tumor.cct.gz	2be67a1d1c03d62aa33255ced3e8a98a	https://byu.box.com/shared/static/7qencq6hz3bdrdaewhs965qb06dr4sio.gz	phosphoproteomics
+proteomics_gene_level_MD_abundance_normal.cct.gz	e512f3f63344fb57026c162687699178	https://byu.box.com/shared/static/zg10bmesp2ci4fi2t6zxb73yih9bpol9.gz	proteomics
+proteomics_gene_level_MD_abundance_tumor.cct.gz	fc7fe9ab5bb5443508a99cca8862759b	https://byu.box.com/shared/static/hj3dkiwqqq1edg6yqicyyr4k3hmr1n50.gz	proteomics
+RNA_fusion_unfiltered_normal.tsv.gz	3fc65c9a3bb5135be051eb86af83d1bf	https://byu.box.com/shared/static/1xpmbm0r9bkjy1pozmzyx21a2xi8i0r0.gz	gene_fusion
+RNA_fusion_unfiltered_tumor.tsv.gz	35e3b84961ec6f1bbb30c9ab36e7faa0	https://byu.box.com/shared/static/d03ew01ez3ywlxaus6x912h2pbh1of73.gz	gene_fusion
+SCNA_log2_gene_level.cct.gz	c6ba1bbb59263532922509a9010745b7	https://byu.box.com/shared/static/rjl1c65i6i32c2lk22ufe2pwpsfnu822.gz	CNV

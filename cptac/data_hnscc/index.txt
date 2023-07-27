@@ -1,0 +1,18 @@
+#0.1
+HNSCC.strelka.sorted.filtered.annovar.hg19_multianno_filtered.maf.txt.gz	3ea6db5b2481bb30946fbbbac5c69507	https://byu.box.com/shared/static/4gyfq2ovfgnkx4imkuv0a3tuiyzvxetf.gz	somatic_mutation
+Proteomics_DIA_Gene_level_Normal.cct.gz	c61e0af16ad699966f9cb7f3441b42c0	https://byu.box.com/shared/static/5s67oce2yjskrq1akprcvlv207fkwoni.gz	proteomics
+Proteomics_DIA_Gene_level_Tumor.cct.gz	f85de5e849b6e0a9e152c2ed8b12bbc8	https://byu.box.com/shared/static/byqugkejmej1suv8ih5zqtbw68ikgcf9.gz	proteomics
+RNAseq_RSEM_UQ_log2.cct.gz	3ce1f5d9525078d978b47ba511a6ac8e	https://byu.box.com/shared/static/inb45g86el04tbj2zaasc1hzj7pcyw0a.gz	transcriptomics
+RNAseq_circ_RSEM_UQ_log2.cct.gz	5cdd189c0899bc0d89bd3c1d753c19a8	https://byu.box.com/shared/static/89cfpznk12hyj5tmeziqkp68wh7uux6m.gz	circular_RNA
+SCNA_gene_level.cct.gz	1a63fcd47533de1b9885fa4d0369eb31	https://byu.box.com/shared/static/qayetngupd17h1vqujoyxg8vciqjvgrp.gz	CNV
+clinic.tsi.gz	0e45f17037cdabbd1af10867c895e153	https://byu.box.com/shared/static/1c4255k5l9szjowkam268f33103n17w0.gz	annotation
+#2.0
+circRNAseq_RSEM_UQ_log2_Combined.cct.gz	56400f6c330cc3a66ecf0235e6e5f90a	https://byu.box.com/shared/static/8jlq4uy9x2efmv7nusulge3cceogwmyc.gz	circular_RNA
+HN_followUp_9_24.xlsx	b7c3964221de6d923550fb4d9e8346aa	https://byu.box.com/shared/static/e4n9tolixol9zqsybkov2cq5ww9jnt98.xlsx	followup
+Meta_table.tsv.gz	b884e1d28094e3ec9f042bd6320fb248	https://byu.box.com/shared/static/kr9jwnu1gb6a9rxay84lkhoft41925qf.gz	annotation
+microRNA_log2_Combined.cct.gz	24155cb35279812d766f50af0e82653a	https://byu.box.com/shared/static/v971o5mp6260ocp6ajmvxrknacdj7vft.gz	miRNA
+Phosphoproteomics_TMT_site_level_combined_all.cct.gz	67b5e1ed48f3f40915f64d0d972fd84b	https://byu.box.com/shared/static/8btrsjiiqib0wzbgu0rnjmeatgu5189e.gz	phosphoproteomics
+Proteomics_TMT_gene_level_combined_all.cct.gz	c1ec8ebb3d6ccdf24a77bbdf28d0d722	https://byu.box.com/shared/static/djcf9svlw4wus5t09qfjb1y7fdnkrdu7.gz	proteomics
+RNAseq_RSEM_UQ_Combined.cct.gz	a7d7b15f46007b6ef0a0f70e1bc50d0b	https://byu.box.com/shared/static/xz68ix6irq1czwozzfbjsi1784vrhqgn.gz	transcriptomics
+SCNA_log2_gene_level.cct.gz	061d5aac1ce9924e460ce4b5eac8605d	https://byu.box.com/shared/static/z1a1bdhvdwtowba4hmd5wrfdenevfeet.gz	CNV
+SomaticMutations_maf.tsv.gz	a21bfd196dcc9efcf4d880df963323eb	https://byu.box.com/shared/static/2ltji024ue9yzg2a6hvrwrh96eqoq095.gz	somatic_mutation

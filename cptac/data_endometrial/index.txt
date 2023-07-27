@@ -1,0 +1,26 @@
+#2.1
+acetylproteomics.cct.gz	34cbacc68b11eda274e08b618fc57c55	https://byu.box.com/shared/static/v6z5zycmlu8fdp83juplmjsayk66rzo9.gz	acetylproteomics
+clinical.txt	e13e4fcf27f8677ca328b5f410dee416	https://byu.box.com/shared/static/mpfr41qxenaxzrhug0axw42l85bxs4rv.txt	annotation
+CNA.cct.gz	849e7d35700f4b4927ed69699f21254f	https://byu.box.com/shared/static/v3xllrj69kavnfjoymmc0j5bp36h3gsr.gz	CNV
+definitions.txt	2013b8ad07c175269708683136e62fd9	https://byu.box.com/shared/static/y9e1csqkaf5g2egkn1p0epub17ycgwhd.txt	definitions
+miRNA.cct.gz	06854903ab92972847987d32a7115bbc	https://byu.box.com/shared/static/cg6r273qv2wfefe2cdjcs509r2jtu5cq.gz	miRNA
+phosphoproteomics_gene.cct.gz	8fc8c91f3dae06bec3ff919594f22c44	https://byu.box.com/shared/static/xs76j0fhbznyniuajikyomgn3u9yiqoc.gz	phosphoproteomics_gene
+phosphoproteomics_site.cct.gz	a1760ca265b3481d8be1a080b28f5629	https://byu.box.com/shared/static/ngjqt0bgu5ld2vs5tx6ozr7jys0aw82r.gz	phosphoproteomics
+proteomics.cct.gz	677876361b9bc3f2cf54ee915d718d98	https://byu.box.com/shared/static/2uvinskiygpbstq1gdc8cnx05vpqwnjx.gz	proteomics
+somatic_binary.cbt.gz	bc5240865b60cceb2ed5ab9143af03fb	https://byu.box.com/shared/static/vsymqx3r744lfe4bc3l4a2fh1f3mktp7.gz	somatic_mutation_binary
+somatic.maf.gz	df90e08a23148da33e09d3feacf53059	https://byu.box.com/shared/static/qzr3t83vk1klmkf85uqj2vtm24t6s30l.gz	somatic_mutation
+transcriptomics_circular.cct.gz	c4c3a32e335e62b05f82bfae7f3871ae	https://byu.box.com/shared/static/a2ugpscup2v6t8ii9sx265fulc0bplx9.gz	circular_RNA
+transcriptomics_linear.cct.gz	ce5558b59ef954d4060e5c5c26612e30	https://byu.box.com/shared/static/yjnb7w39qg64qo2bzqbkpjjvm1tvnqhc.gz	transcriptomics
+#2.1.1
+acetylproteomics.cct.gz	34cbacc68b11eda274e08b618fc57c55	https://byu.box.com/shared/static/yj04fzlc3rttq4yo4m978uqsze61hhd9.gz	acetylproteomics
+clinical.txt	e13e4fcf27f8677ca328b5f410dee416	https://byu.box.com/shared/static/dgmcuo9o8f5h01v6nn59y5j1fs2jo3hz.txt	annotation
+CNA.cct.gz	849e7d35700f4b4927ed69699f21254f	https://byu.box.com/shared/static/d23vuhnf42wgcbdziifjmfugbeoxfhvm.gz	CNV
+definitions.txt	2013b8ad07c175269708683136e62fd9	https://byu.box.com/shared/static/7bd0kyewgpar5swsq8bhnhdkr88501e8.txt	definitions
+miRNA.cct.gz	06854903ab92972847987d32a7115bbc	https://byu.box.com/shared/static/69z6ai1wv6t20r7bvzgksyj25mxqov6n.gz	miRNA
+phosphoproteomics_site.cct.gz	a1760ca265b3481d8be1a080b28f5629	https://byu.box.com/shared/static/8iraowys4bn2qgaqmjwz7ahc3aei7xc7.gz	phosphoproteomics
+proteomics.cct.gz	677876361b9bc3f2cf54ee915d718d98	https://byu.box.com/shared/static/zd328326w9va36howds8f2icsu8cgfb6.gz	proteomics
+somatic_binary.cbt.gz	bc5240865b60cceb2ed5ab9143af03fb	https://byu.box.com/shared/static/2c7mg5u0yxpj2fmkjtnbacnoegrwvz75.gz	somatic_mutation_binary
+somatic.maf.gz	df90e08a23148da33e09d3feacf53059	https://byu.box.com/shared/static/elhr9ou26nkwgppo8jstkdeimqal6v0g.gz	somatic_mutation
+transcriptomics_circular.cct.gz	c4c3a32e335e62b05f82bfae7f3871ae	https://byu.box.com/shared/static/yxlcl8v4xuu3hjttk8h7r4h14wdhxfsu.gz	circular_RNA
+transcriptomics_linear.cct.gz	ce5558b59ef954d4060e5c5c26612e30	https://byu.box.com/shared/static/4zl7hy4oojk39ii1rrsbgl5040is4318.gz	transcriptomics
+UCEC_followup_9_12.xlsx	b58894d2f9d8455b6f87a5c51bc8fc9d	https://byu.box.com/shared/static/qnq6a14eap5fwhhcxfapcvvrn37513xc.xlsx	followup

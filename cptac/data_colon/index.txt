@@ -1,0 +1,22 @@
+#0.0
+clinical.tsi.gz	f6cfc6506e48b2258dffce57c0b6dfc3	https://byu.box.com/shared/static/omcwz5otzfwmt1htl8xvo8161927go9l.gz	annotation
+miRNA.cct.gz	86c65b27f96647a04c8d23908806fac6	https://byu.box.com/shared/static/iirucw0cy9258ro19s6vizb7ejzljwnq.gz	miRNA
+mutation_binary.cbt.gz	a317e1887824e4407dc22774138c9718	https://byu.box.com/shared/static/jwp4v12w5wzpcvw9097an10tp3op4175.gz	somatic_mutation_binary
+mutation.txt.gz	2fe0e162b7ab9fc343a0e5c1984fcbfc	https://byu.box.com/shared/static/1vaggw7p65j4bhax0v6nmjapyjnv8r6x.gz	somatic_mutation
+phosphoproteomics_normal.gz	ccb7d3c239c42c1046190c7719a8a471	https://byu.box.com/shared/static/7a1f4fgpsefmmsssr13u5fp2z769hstw.gz	phosphoproteomics
+phosphoproteomics_tumor.gz	815da095c47c309c806a33d8d0f73b71	https://byu.box.com/shared/static/s7884w0cbico4gs3ogzq0ew0j1o75iq5.gz	phosphoproteomics
+proteomics_normal.cct.gz	0d0f4a3f3419655bbe320cb8a6815a8f	https://byu.box.com/shared/static/yaagqemz3p8eec5u0xy6wnbctk1dpffh.gz	proteomics
+proteomics_tumor.cct.gz	0099ccb6659bf245ad7c3b3989085e50	https://byu.box.com/shared/static/j5qjny2i6hof304dg3muajcssspt0q84.gz	proteomics
+transcriptomics.gz	c1160f0610cc0938b8d963f852ee5a10	https://byu.box.com/shared/static/ahgoo2hf8lvj6gf641mnnxfjvrsxnjua.gz	transcriptomics
+#0.0.1
+clinical.tsi.gz	f6cfc6506e48b2258dffce57c0b6dfc3	https://byu.box.com/shared/static/2wzsq500dr2md5hzvp7ajv7dihbylh9c.gz	annotation
+Colon_One_Year_Clinical_Data_20160927.xls	63a780ce6fa5afc9acb872fb07a472f6	https://byu.box.com/shared/static/kmo07kjw0p9pey9ectmap2g9ivxrk3u5.xls	followup
+Human__CPTAC_COAD__VU__SCNA__ExomeSeq__01_28_2016__BCM__Gene__BCM_CopyWriteR_GISTIC2.cct.gz	6d553ae8e53ef6738eb0c96b94e71c5d	https://byu.box.com/shared/static/1dhax8z5ryiwbcwt6xm90iop2ex4sgn9.gz	CNV
+miRNA.cct.gz	86c65b27f96647a04c8d23908806fac6	https://byu.box.com/shared/static/gvt1s6d2phaug6vsd7gf9j22qrysmjr9.gz	miRNA
+mutation_binary.cbt.gz	a317e1887824e4407dc22774138c9718	https://byu.box.com/shared/static/0xpgldtmkk0nahr3c706jffbr9qzkjak.gz	somatic_mutation_binary
+mutation.txt.gz	2fe0e162b7ab9fc343a0e5c1984fcbfc	https://byu.box.com/shared/static/rzl0p2m23whc3ltz8a4wg3cft83uofv5.gz	somatic_mutation
+phosphoproteomics_normal.gz	ccb7d3c239c42c1046190c7719a8a471	https://byu.box.com/shared/static/qidgkyxem4llbb6yjew9uxyliamzb6fl.gz	phosphoproteomics
+phosphoproteomics_tumor.gz	815da095c47c309c806a33d8d0f73b71	https://byu.box.com/shared/static/2a5c0nzlicjmsj7p71rk26mkp10mqifo.gz	phosphoproteomics
+proteomics_normal.cct.gz	0d0f4a3f3419655bbe320cb8a6815a8f	https://byu.box.com/shared/static/eiansknyek309n9vuf7ad0ktirh92uuu.gz	proteomics
+proteomics_tumor.cct.gz	0099ccb6659bf245ad7c3b3989085e50	https://byu.box.com/shared/static/rkbdifymwxexoyex48x75npier836kl5.gz	proteomics
+transcriptomics.gz	c1160f0610cc0938b8d963f852ee5a10	https://byu.box.com/shared/static/7t4pvtsdys8k5i084auvs9dtwhj7d6wi.gz	transcriptomics

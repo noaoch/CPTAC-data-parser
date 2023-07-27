@@ -1,0 +1,36 @@
+#0.0
+6_CPTAC3_CCRCC_Phospho_abundance_gene_protNorm=2_CB_imputed.tsv.gz	b25283bf38e65a9147bf56305a0a251f	https://byu.box.com/shared/static/w96p5ogc5eeyqyrq1rlw5iyx8zeesv3n.gz	phosphoproteomics_gene
+6_CPTAC3_CCRCC_Phospho_abundance_phosphosite_protNorm=2_CB.tsv.gz	ba1ba52e89040fe6df6247cfeeb4bbc0	https://byu.box.com/shared/static/988tixon87bzmg72bu5s2um808foxge0.gz	phosphoproteomics
+6_CPTAC3_CCRCC_Whole_abundance_protein_pep=unique_protNorm=2_CB.tsv.gz	a61eb287b8717bc8b0dcdc83616116f3	https://byu.box.com/shared/static/aintqkvhk3n64mkf8e4gugb2346nfrbm.gz	proteomics
+Clinical Table S1.xlsx	2cb05a2134b8345793629cf6399d76c3	https://byu.box.com/shared/static/51md1flz846b7vy255629aih16taord3.xlsx	annotation
+ccrcc.somatic.consensus.gdc.umichigan.wu.112918.maf.gz	5a90a16e9feece571cd61d41e24c1ca2	https://byu.box.com/shared/static/7eyfy5t94sb83isorhr3ubqapyfplxsy.gz	somatic_mutation
+ccrccMethylGeneLevelByMean.txt.gz	b1288396b2888bad55c533b2143cf926	https://byu.box.com/shared/static/mbti1fj0xt0cw5x70jl9apf5za7io48f.gz	methylation
+cptac-metadata.xls.gz	b142eeeaad4a7382599b2d13d73ce43a	https://byu.box.com/shared/static/38bq1nywy2ywa1jw6gxw4f6pvpgwcbfq.gz	annotation
+kirc_wgs_cnv_gene.csv.gz	12b0167bb9055b63cba44c8abca05979	https://byu.box.com/shared/static/f2rmzulytb5gzom873bdk54ir7fx9r10.gz	CNV
+RNA_Normal_Tumor_185_samples.tsv.gz	421a3a74ee3882c92e7e45fc329c9a9b	https://byu.box.com/shared/static/c1dexywc9fpudmht3du2rpltcp0tgvl8.gz	transcriptomics
+S044_CPTAC_CCRCC_Discovery_Cohort_Clinical_Data_r3_Mar2019.xlsx	77a9c5c900cc378f7581a2b50c150ddd	https://byu.box.com/shared/static/blr361fzmp6tn9nhpn1q6bob1yd3d7ce.xlsx	annotation
+#0.1
+6_CPTAC3_CCRCC_Phospho_abundance_gene_protNorm=2_CB_imputed.tsv.gz	b25283bf38e65a9147bf56305a0a251f	https://byu.box.com/shared/static/lnpxi06uviwzm5m3a1t3c4ehsoi49bb6.gz	phosphoproteomics_gene
+6_CPTAC3_CCRCC_Phospho_abundance_phosphosite_protNorm=2_CB.tsv.gz	ba1ba52e89040fe6df6247cfeeb4bbc0	https://byu.box.com/shared/static/l3u6iand83ql8zq1yqe5hihy729hcmz9.gz	phosphoproteomics
+6_CPTAC3_CCRCC_Whole_abundance_protein_pep=unique_protNorm=2_CB.tsv.gz	a61eb287b8717bc8b0dcdc83616116f3	https://byu.box.com/shared/static/4jo01io8xe7tvasww67gb84rghbq41kr.gz	proteomics
+ccrccMethylGeneLevelByMean.txt.gz	b1288396b2888bad55c533b2143cf926	https://byu.box.com/shared/static/dcgkky9xy6wle8cqq3yb1dc6z193a8q0.gz	methylation
+ccrcc.somatic.consensus.gdc.umichigan.wu.112918.maf.gz	5a90a16e9feece571cd61d41e24c1ca2	https://byu.box.com/shared/static/kwb1gfujfaj5j1r7tz57yqplmz0pwmbi.gz	somatic_mutation
+Clinical Table S1.xlsx	2cb05a2134b8345793629cf6399d76c3	https://byu.box.com/shared/static/y1069mbx5ro0orf567m9flqhhccb1ei7.xlsx	annotation
+cptac-metadata.xls.gz	b142eeeaad4a7382599b2d13d73ce43a	https://byu.box.com/shared/static/k1zhz7hup6bqelnl3tu61i65tdbet1n8.gz	annotation
+kirc_wgs_cnv_gene.csv.gz	12b0167bb9055b63cba44c8abca05979	https://byu.box.com/shared/static/482i3kvpxxj72do2hrmca4chudyjhfam.gz	CNV
+RNA_Normal_Tumor_185_samples.tsv.gz	421a3a74ee3882c92e7e45fc329c9a9b	https://byu.box.com/shared/static/o0xozunbfely6q4ajdgdujk9km2g1zdn.gz	transcriptomics
+S044_CPTAC_CCRCC_Discovery_Cohort_Clinical_Data_r3_Mar2019.xlsx	77a9c5c900cc378f7581a2b50c150ddd	https://byu.box.com/shared/static/tr4prp2ouj47qbwahe6qrnr32f2y54wk.xlsx	annotation
+Table S7.xlsx	51630b2bd025dac88fe7e482640de7a0	https://byu.box.com/shared/static/6x54ekc3mwhbpbru3myvx9ej42opwv1v.xlsx	annotation
+#0.1.1
+6_CPTAC3_CCRCC_Phospho_abundance_gene_protNorm=2_CB_imputed.tsv.gz	b25283bf38e65a9147bf56305a0a251f	https://byu.box.com/shared/static/dpzwq0clvsmxwz1oqizuymmfuaz5yco1.gz	phosphoproteomics_gene
+6_CPTAC3_CCRCC_Phospho_abundance_phosphosite_protNorm=2_CB.tsv.gz	ba1ba52e89040fe6df6247cfeeb4bbc0	https://byu.box.com/shared/static/8kj2wfsy9zxn5tn488hr7ajg1jowlw7s.gz	phosphoproteomics
+6_CPTAC3_CCRCC_Whole_abundance_protein_pep=unique_protNorm=2_CB.tsv.gz	a61eb287b8717bc8b0dcdc83616116f3	https://byu.box.com/shared/static/90mqn3g1o1sfa24li98pztq4pcbpn7pj.gz	proteomics
+CCRCC_followup_9_12.xlsx	41f1577a5798e49aa320d09a75e14e2b	https://byu.box.com/shared/static/czxulpywua3vcyupjwwarcrm9v0h0mh8.xlsx	followup
+ccrccMethylGeneLevelByMean.txt.gz	b1288396b2888bad55c533b2143cf926	https://byu.box.com/shared/static/rfzqh0vxyzzpf1nfzixjm4qxubncchw3.gz	methylation
+ccrcc.somatic.consensus.gdc.umichigan.wu.112918.maf.gz	5a90a16e9feece571cd61d41e24c1ca2	https://byu.box.com/shared/static/tnmxi8st2vuprzsffr9rp64rbej4goh5.gz	somatic_mutation
+Clinical Table S1.xlsx	2cb05a2134b8345793629cf6399d76c3	https://byu.box.com/shared/static/q5bayxdevpwmq74chay5m0lrnc6vb71i.xlsx	annotation
+cptac-metadata.xls.gz	b142eeeaad4a7382599b2d13d73ce43a	https://byu.box.com/shared/static/mf5uzbi0p1yldywbebrybavxdfg9vaqy.gz	annotation
+kirc_wgs_cnv_gene.csv.gz	12b0167bb9055b63cba44c8abca05979	https://byu.box.com/shared/static/oxuhdczwq77s3ukb8mgieu7lbc4z0mgg.gz	CNV
+RNA_Normal_Tumor_185_samples.tsv.gz	421a3a74ee3882c92e7e45fc329c9a9b	https://byu.box.com/shared/static/qkkzbd5iqbiq4a5df20b9gmpw1m3pisv.gz	transcriptomics
+S044_CPTAC_CCRCC_Discovery_Cohort_Clinical_Data_r3_Mar2019.xlsx	77a9c5c900cc378f7581a2b50c150ddd	https://byu.box.com/shared/static/nrav8q20ucza7jaq2hvcix0qil78fjv5.xlsx	annotation
+Table S7.xlsx	51630b2bd025dac88fe7e482640de7a0	https://byu.box.com/shared/static/bi4plwl3ie71vy0m6gpde2x2nv5xtyue.xlsx	annotation

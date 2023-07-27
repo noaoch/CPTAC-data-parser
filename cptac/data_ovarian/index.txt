@@ -1,0 +1,19 @@
+#0.0
+clinical.csv.gz	e5199855a70c4c0dbd49edfbbfe17cc8	https://byu.box.com/shared/static/4ks6nm0zqop013pszdt6xh7odcguc3xi.gz	clinical
+cnv.tsv.gz	c00695c33f62d3a6c4e98b9ce2eb2811	https://byu.box.com/shared/static/8s4vj663vdjd5wt82svrusqtfp0pgigk.gz	CNV
+definitions.txt	308c9969bc3afc20c2fd15bdf561b078	https://byu.box.com/shared/static/ci4vt1dsb27ji0689h351caxo6yxzw91.txt	definitions
+phosphoproteomics.txt.gz	af9f2af6971d9a1f4f4b5fcbb71917f1	https://byu.box.com/shared/static/zincknv1m4d9o3azhr5w8wz87h50jf40.gz	phosphoproteomics
+proteomics.txt.gz	e51386895a46cb95deccfafac99a6c06	https://byu.box.com/shared/static/5zeayw3lblp87b33nr5trn9qwxhv9c0t.gz	proteomics
+somatic_38.maf.gz	c1af357d8636d96c734ae7ff18106a2c	https://byu.box.com/shared/static/6b37fisymtq6jux7w3velxgjnx6eg2kb.gz	somatic_mutation
+transcriptomics.tsv.gz	d3ec760e721f705d8a4c4e0270fecb6d	https://byu.box.com/shared/static/ydfv0c9euiyztfohf8sxs9jvpw62181l.gz	transcriptomics
+treatment.csv.gz	496620b690010630dd86af6b5932890d	https://byu.box.com/shared/static/bnqll42iz3ifosz0uehempxehxqehwfu.gz	treatment
+#0.0.1
+clinical.csv.gz	e5199855a70c4c0dbd49edfbbfe17cc8	https://byu.box.com/shared/static/thmks6jcncd7gmu5t98latid0sinyeqm.gz	clinical
+cnv.tsv.gz	c00695c33f62d3a6c4e98b9ce2eb2811	https://byu.box.com/shared/static/dhd1b4sft7zbn3ky313aew1n34geu3js.gz	CNV
+definitions.txt	308c9969bc3afc20c2fd15bdf561b078	https://byu.box.com/shared/static/zwisuc14qey41fgik7kjbrl115t7527o.txt	definitions
+Ovary_One_Year_Clinical_Data_20160927.xls	ed1d07ed0099010e9d0930288314902a	https://byu.box.com/shared/static/dn9zd4xhqxlae6qner5mj6foi8mml2w1.xls	followup
+phosphoproteomics.txt.gz	af9f2af6971d9a1f4f4b5fcbb71917f1	https://byu.box.com/shared/static/8ij6082x7z43w62ro9bdrayjzgy0qrlp.gz	phosphoproteomics
+proteomics.txt.gz	e51386895a46cb95deccfafac99a6c06	https://byu.box.com/shared/static/hf1z2fg70dwzlyr001ubm0t36c3rhu3g.gz	proteomics
+somatic_38.maf.gz	c1af357d8636d96c734ae7ff18106a2c	https://byu.box.com/shared/static/hqdxw2l0280ain3tygo5g0fe64cv98gx.gz	somatic_mutation
+transcriptomics.tsv.gz	d3ec760e721f705d8a4c4e0270fecb6d	https://byu.box.com/shared/static/ebx3kyrbro4f7jdwwzeq4djgzwubm6ll.gz	transcriptomics
+treatment.csv.gz	496620b690010630dd86af6b5932890d	https://byu.box.com/shared/static/58r2pmx97l53m9cnogy3bl58zm0oc4l6.gz	treatment

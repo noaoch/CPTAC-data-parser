@@ -1,0 +1,33 @@
+#2.0
+luad-v2.0-cnv-gene-LR.gct.gz	78bde5daf0870e70934a1d731ccb1264	https://byu.box.com/shared/static/9wn31j76yb57o963xj3hn3hizv62hb9r.gz	CNV
+luad-v2.0-phosphoproteome-ratio-norm-NArm.gct.gz	2bd6d9078ee98984a9b18a44c743e915	https://byu.box.com/shared/static/48x5hk6jn0r7olrdq6ypr9zlx1z219r5.gz	phosphoproteomics
+luad-v2.0-proteome-ratio-norm-NArm.gct.gz	d717b48e7eb7fa27376462d3fcc4a721	https://byu.box.com/shared/static/tn6clf41jo5cylnwkz9pxxn3ovc7ohe3.gz	proteomics
+luad-v2.0-rnaseq-circ-rna.csv.gz	e32b8b522a5632800a6a07320fa755ae	https://byu.box.com/shared/static/nrbwi1yv9onbgbp35cs8g8x1korn974l.gz	circular_RNA
+luad-v2.0-rnaseq-prot-uq-rpkm-log2-NArm-row-norm.gct.gz	16451d4f66727c65be9129645fb15d54	https://byu.box.com/shared/static/dea46x3b5wuzxb6wbqnwrls7gcx8v9lm.gz	transcriptomics
+luad-v2.0-sample-annotation.csv.gz	8d7c41d21c6777ffd748b7e22d2c3bc7	https://byu.box.com/shared/static/2vlnb0nheaebvhm0ptvaui3940p9bj4w.giz	annotation
+#3.1
+LUAD_followup_9_12.xlsx	ff1096400432e9b4806c13de8916d840	https://byu.box.com/shared/static/5cs39fnef27ry4fr01d6u3h4vxgp3i8f.xlsx	followup
+luad-v3.0-rnaseq-circ-rna.csv.gz	4188247d2edc132ee9819a81cd1d3951	https://byu.box.com/shared/static/tenpdhc2fpcuwcr57s9u8o5cr1yakghz.gz	circular_RNA
+luad-v3.0-rnaseq-gene-fusions.csv.gz	925a87df17246154cb275536eceeaf91	https://byu.box.com/shared/static/1ku6vg13vovl1ikmdkaybri54s47g85o.gz	gene_fusion
+luad-v3.0-wxs-somatic.luad.v1.4.20190517.maf.gz	8cdf228f82320377f55097a832764aee	https://byu.box.com/shared/static/ap24chtvz807sczei7zb7nz9iaqhgm5n.gz	somatic_mutation
+luad-v3.1-acetylome-ratio-norm-NArm.gct.gz	60be25b19047b1ff61b86b2bd541ab46	https://byu.box.com/shared/static/4eew55dipb14sxjxw6q91h0i1zb2gobn.gz	acetylproteomics
+luad-v3.1-cnv-gene-LR.gct.gz	dfcc5deedc8407c9bbf116673da55093	https://byu.box.com/shared/static/vhvuvtr38uakmgh9qtyy6hd8m1k3jxqw.gz	CNV
+luad-v3.1-mirna-mature-tpm-log2.gct.gz	8813bfd3158e83acf5958277584f34b6	https://byu.box.com/shared/static/hx5f07nvo9u1z8062fyydba1p5l8hlep.gz	miRNA
+luad-v3.1-phosphoproteome-ratio-norm-NArm.gct.gz	c4ba4ee8aac5869493843fdafa5f7690	https://byu.box.com/shared/static/zazq43x61c1bey82bb8zxr0w8v8euvhm.gz	phosphoproteomics
+luad-v3.1-proteome-ratio-norm-NArm.gct.gz	21e40f7060ebdbfe5be4d27ce7a012f5	https://byu.box.com/shared/static/5mn8shrpcmgb83yvt1qk262w7v5h2xfi.gz	proteomics
+luad-v3.1-rnaseq-linc-uq-rpkm-log2-NArm.gct.gz	e8a219ec31876d45a378729490fea006	https://byu.box.com/shared/static/h0ka65gvodpt7xqcogyxwb18wafkfpml.gz	lincRNA
+luad-v3.1-rnaseq-prot-uq-rpkm-log2-NArm.gct.gz	49454ee9f2a514c4100207f278641092	https://byu.box.com/shared/static/f3frchxddlgtmqfsx7s6qlg0vlsyb35r.gz	transcriptomics
+luad-v3.1-sample-annotation.csv.gz	f78249e1f896f7da717191ba09938bcc	https://byu.box.com/shared/static/4tlam4mip9zweaofkrkg1bcml5p729x0.gz	annotation
+#3.1.1
+LUAD_followup_9_12.xlsx	ff1096400432e9b4806c13de8916d840	https://byu.box.com/shared/static/1ig36f3u89owm05nx2pczuvtpbbr7duj.xlsx	followup
+luad-v3.0-rnaseq-circ-rna_parsed.tsv.gz	01cfc84e62452ca91e06a165e635558c	https://byu.box.com/shared/static/h9cdp5p4wx86mu52b4hyl4uq7oovr97s.gz	circular_RNA
+luad-v3.0-rnaseq-gene-fusions.csv.gz	925a87df17246154cb275536eceeaf91	https://byu.box.com/shared/static/yvzkfzhsgk14wacdrpqqr8rh1vrpmu4y.gz	gene_fusion
+luad-v3.0-wxs-somatic.luad.v1.4.20190517.maf.gz	8cdf228f82320377f55097a832764aee	https://byu.box.com/shared/static/1lauq3nbb1brbf5mbkrlosyuq355vaxq.gz	somatic_mutation
+luad-v3.1-acetylome-ratio-norm-NArm.gct.gz	60be25b19047b1ff61b86b2bd541ab46	https://byu.box.com/shared/static/598bdggl7ffh8op6jbc1r72gfc1qghcp.gz	acetylproteomics
+luad-v3.1-cnv-gene-LR.gct.gz	dfcc5deedc8407c9bbf116673da55093	https://byu.box.com/shared/static/rr1gy83m1wdb9din90i108y54r3av5dl.gz	CNV
+luad-v3.1-mirna-mature-tpm-log2.gct.gz	8813bfd3158e83acf5958277584f34b6	https://byu.box.com/shared/static/bt832eunbszntsn8z9u2l005igr6esgh.gz	miRNA
+luad-v3.1-phosphoproteome-ratio-norm-NArm.gct.gz	c4ba4ee8aac5869493843fdafa5f7690	https://byu.box.com/shared/static/iyovq7bq1h6rgb37rxg2z7nlxw7qecfc.gz	phosphoproteomics
+luad-v3.1-proteome-ratio-norm-NArm.gct.gz	21e40f7060ebdbfe5be4d27ce7a012f5	https://byu.box.com/shared/static/a9anotp2nf2xw3w361mk9ev6hj1gpwa5.gz	proteomics
+luad-v3.1-rnaseq-linc-uq-rpkm-log2-NArm.gct.gz	e8a219ec31876d45a378729490fea006	https://byu.box.com/shared/static/xi7sevfpx4vifjudez4glgywzq625vou.gz	lincRNA
+luad-v3.1-rnaseq-prot-uq-rpkm-log2-NArm.gct.gz	49454ee9f2a514c4100207f278641092	https://byu.box.com/shared/static/uk0accwvvq7mgbofacim6ddexkk5hgar.gz	transcriptomics
+luad-v3.1-sample-annotation.csv.gz	f78249e1f896f7da717191ba09938bcc	https://byu.box.com/shared/static/n61ue1u2mdjyt392ntx4yqr0en37vf2i.gz	annotation
