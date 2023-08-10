@@ -1,3 +1,4 @@
+import numpy
 import pyranges as pr
 import pybedtools
 import pandas as pd
@@ -59,13 +60,27 @@ def group_by_sample_id(maf: pd.DataFrame):
     >>> result = group_by_sample_id(maf)
     >>> type(result["11CO059"])
     >>> len(result)
+
+    >>> cptac.download("endometrial")
+    >>> en = cptac.Endometrial()
+    >>> en_maf = en._maf
+    >>> result = group_by_sample_id(en_maf)
+    >>> result
     """
-    grouped = maf.groupby("SampleID")
+    try:
+        grouped = maf.groupby("SampleID")
+    except:
+        grouped = maf.groupby("Tumor_Sample_Barcode")
     result = {}
     for name, group in grouped:
-        group = group.drop_duplicates(subset=['Start', 'Gene'])
-        group = group.drop_duplicates(subset=['Protein_Change', 'Gene']) # drop the mutations that would result in the same protein change
-        result[name] = group
+        try:
+            group = group.drop_duplicates(subset=['Start', 'Gene'])
+            group = group.drop_duplicates(subset=['Protein_Change', 'Gene']) # drop the mutations that would result in the same protein change
+            result[name] = group
+        except: # files differ by their format slightly (in endometrial start is named Start_Position)
+            group = group.drop_duplicates(subset=['Start_Position', 'Gene'])
+            result[name] = group
+
     return result
 
 
@@ -210,9 +225,11 @@ def trial_reader(patient: pd.Series) -> tuple[str, str, int, int, str, str, str]
     >>> v22["gene_id"] = v22["gene_id"].apply(lambda x: x.split(".")[0])
 
     """
-    try: # GENE_SYMBOL
-        gene_symbol = patient["Gene"]
-    except KeyError:
+    # GENE_SYMBOL
+    # This gene symbol is geared towards the colon dataset
+    gene_symbol = patient["Gene"]
+
+    if gene_symbol.startswith("ENSG"):  # if this is not the gene symbol, but the
         # This column notation is first found in endometrial
         gene_symbol = patient["SYMBOL"]
     print(f"Gene Symbol: {gene_symbol}")
@@ -287,25 +304,30 @@ def fetch_gene(ref, gene_symbol, chr):
         jth_row = whole_seq.iloc[j].to_frame().transpose()
         cleaned_gene = jth_row.loc[:, ["Chromosome", "Start", "End"]]
 
-        # Start is a tuple, so we have multiple genes
-        print(f"start: {cleaned_gene['Start'].iloc[0]}")
-        for i in range(len(cleaned_gene['Start'].iloc[0])):
+        if type(cleaned_gene['Start'].iloc[0]) == numpy.int64:  # if hg38
             new_gene = copy.deepcopy(cleaned_gene)
-            try:
-                new_gene['Start'] = new_gene['Start'].iloc[0][i]
-                new_gene['End'] = new_gene['End'].iloc[0][i]
-            except:
-                print("Error in fetch_gene")
-                print(new_gene)
-                print(new_gene['Start'])
-                print(new_gene['End'])
-                print(i)
-                print(len(cleaned_gene['Start']))
-                raise
-            # The Start and End here are 1-based, but pybedtools uses 0-based coordinates here, so change them
-            new_gene['Start'] = new_gene['Start'].apply(lambda x: x - 1)
-            # No need to change End, because we want to include the last base pair of the gene segment
             genes.append(new_gene)
+
+        else:
+            # Start is a tuple for hg19, so we have multiple genes
+            print(f"start: {cleaned_gene['Start'].iloc[0]}")
+            for i in range(len(cleaned_gene['Start'].iloc[0])):
+                new_gene = copy.deepcopy(cleaned_gene)
+                try:
+                    new_gene['Start'] = new_gene['Start'].iloc[0][i]
+                    new_gene['End'] = new_gene['End'].iloc[0][i]
+                except:
+                    print("Error in fetch_gene")
+                    print(new_gene)
+                    print(new_gene['Start'])
+                    print(new_gene['End'])
+                    print(i)
+                    print(len(cleaned_gene['Start']))
+                    raise
+                # The Start and End here are 1-based, but pybedtools uses 0-based coordinates here, so change them
+                new_gene['Start'] = new_gene['Start'].apply(lambda x: x - 1)
+                # No need to change End, because we want to include the last base pair of the gene segment
+                genes.append(new_gene)
 
     return genes
 
@@ -602,10 +624,6 @@ if __name__ == "__main__":
     # import doctest
     # doctest.testmod()
 
-    # cptac.download("colon")
-    # colon = cptac.Colon()
-    # colon_maf = colon._maf
-
     # colon_maf = colon_maf[(colon_maf['Gene'] == 'SPAG11B')]
     # # colon_maf = colon_maf[(colon_maf['Ref'] == 'A') & (colon_maf['Alt'] == 'G')]
     # colon_maf = colon_maf[(colon_maf['SampleID'] == '05CO041')]
@@ -661,9 +679,9 @@ if __name__ == "__main__":
 
 
     print("using cptac...")
-    # cptac.download("endometrial")
-    # en = cptac.Endometrial()
-    # en_maf = en._maf
+    cptac.download("endometrial")
+    en = cptac.Endometrial()
+    en_maf = en._maf
 
     # cptac.download("brca")
     # brca = cptac.Brca()
@@ -697,9 +715,9 @@ if __name__ == "__main__":
     # pdac = cptac.Pdac()
     # pdac_maf = pdac._maf
 
-    cptac.download("colon")
-    colon = cptac.Colon()
-    colon_maf = colon._maf
+    # cptac.download("colon")
+    # colon = cptac.Colon()
+    # colon_maf = colon._maf
 
     # # check if there's anything in the negative strand (Not suitable for colon)
     # print("checking negative strand...")
@@ -710,8 +728,8 @@ if __name__ == "__main__":
 
     # Parse the data
     print("introducing all mutation for colon...")
-    colon_mutations_df = introduce_all_mutation(hg38, hg19, colon_maf)
-    colon_mutations_df.to_csv("colon_mutations.csv")
+    en_mutations_df = introduce_all_mutation(hg38, hg19, en_maf)
+    en_mutations_df.to_csv("endometrial_mutations.csv")
     # df = pd.read_csv("brca_mutations.csv")
 
 
