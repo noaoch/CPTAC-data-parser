@@ -78,8 +78,12 @@ def group_by_sample_id(maf: pd.DataFrame):
             group = group.drop_duplicates(subset=['Protein_Change', 'Gene']) # drop the mutations that would result in the same protein change
             result[name] = group
         except: # files differ by their format slightly (in endometrial start is named Start_Position)
-            group = group.drop_duplicates(subset=['Start_Position', 'Gene'])
-            result[name] = group
+            try:
+                group = group.drop_duplicates(subset=['Start_Position', 'Gene'])
+                result[name] = group
+            except:
+                group = group.drop_duplicates(subset=['Start_Position', 'Hugo_Symbol'])
+                result[name] = group
 
     return result
 
@@ -227,9 +231,13 @@ def trial_reader(patient: pd.Series) -> tuple[str, str, int, int, str, str, str]
     """
     # GENE_SYMBOL
     # This gene symbol is geared towards the colon dataset
-    gene_symbol = patient["Gene"]
+    try:
+        gene_symbol = patient["Gene"]
+    except:
+        # Hugo_symbol is first seen in lscc
+        gene_symbol = patient["Hugo_Symbol"]
 
-    if gene_symbol.startswith("ENSG"):  # if this is not the gene symbol, but the
+    if gene_symbol.startswith("ENSG"):  # if this is not the gene symbol, but the gene id
         # This column notation is first found in endometrial
         gene_symbol = patient["SYMBOL"]
     print(f"Gene Symbol: {gene_symbol}")
@@ -632,6 +640,7 @@ if __name__ == "__main__":
     # colon_maf = colon_maf.drop_duplicates(subset=['Protein_Change', 'Gene'])  # drop the mutations that would result in the same protein change
     # assert 0
 
+    print("Initializing")
     hg38 = read_hg38_v36()
     hg19 = read_hg19()
 
@@ -679,9 +688,9 @@ if __name__ == "__main__":
 
 
     print("using cptac...")
-    cptac.download("endometrial")
-    en = cptac.Endometrial()
-    en_maf = en._maf
+    # cptac.download("endometrial")
+    # en = cptac.Endometrial()
+    # en_maf = en._maf
 
     # cptac.download("brca")
     # brca = cptac.Brca()
@@ -711,9 +720,9 @@ if __name__ == "__main__":
     # ov = cptac.Ovarian()
     # ov_maf = ov._maf
 
-    # cptac.download("pdac")
-    # pdac = cptac.Pdac()
-    # pdac_maf = pdac._maf
+    cptac.download("pdac")
+    pdac = cptac.Pdac()
+    pdac_maf = pdac._maf
 
     # cptac.download("colon")
     # colon = cptac.Colon()
@@ -727,9 +736,9 @@ if __name__ == "__main__":
     # assert colon_maf_neg.empty
 
     # Parse the data
-    print("introducing all mutation for colon...")
-    en_mutations_df = introduce_all_mutation(hg38, hg19, en_maf)
-    en_mutations_df.to_csv("endometrial_mutations.csv")
+    print("introducing all mutations...")
+    pdac_mutations_df = introduce_all_mutation(hg38, hg19, pdac_maf)
+    pdac_mutations_df.to_csv("pdac_mutations.csv")
     # df = pd.read_csv("brca_mutations.csv")
 
 
